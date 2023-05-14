@@ -1,0 +1,33 @@
+.wrapper{
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 28px;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #1560BD;
+  border: 1px solid gray;
+  color: #FFFFFF;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transition: 0.1s linear;
+  box-shadow: 0 0 10px gray;
+}

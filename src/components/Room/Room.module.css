@@ -1,0 +1,92 @@
+.main{
+  background-color: aquamarine;
+  height: 100vh;
+}
+
+.wrapper{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header{
+  margin-top: 5px;
+  background-color: #1560BD;
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 18px;
+  height: 9vh;
+}
+
+.exit {
+  font-size: 16px;
+  padding: 4px 20px;
+  border-radius: 5px;
+  background-color: #E32636;
+  border: 1px solid gray;
+  color: #FFFFFF;
+}
+
+.exit:hover {
+  cursor: pointer;
+  transition: 0.1s linear;
+  box-shadow: 0 0 10px gray;
+}
+
+.messages{
+  background-color: #293133;
+  color: #FFFFFF;
+  border-radius: 5px;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.control{
+  background-color: #1560BD;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input{
+  width: 80%;
+  padding: 0.8rem;
+  font-size: 16px;
+  background-color: #EFA94A;
+  outline: 0;
+  outline-offset: 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.emojies{
+  position: relative;
+}
+
+.emojies img {
+  width: 2rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.emoji{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 100%;
+}
+
+.send {
+  font-size: 16px;
+  padding: 6px 20px;
+  border-radius: 5px;
+  background-color: #FBEEC1;
+  border: 1px solid gray;
+  cursor: pointer;
+}
